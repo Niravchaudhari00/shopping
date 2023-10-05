@@ -12,6 +12,7 @@ const SubHeading = (props: HeadingType) => {
           <HiFilter />
         </button>
         {props?.filterList?.length !== 0 && (
+          // useLocation  => pathname => then split by "/", then check the value of 2nd element, if it's length is >0 then hide it or else show it.
           <select
             name="filterSection"
             className="border border-gray-300 p-2 pl-7 rounded-md"
