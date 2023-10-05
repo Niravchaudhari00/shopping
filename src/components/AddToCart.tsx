@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { rootState } from "../redux/store";
 import productData from "../data";
-import { addToCart, removeFromCart } from "../redux/cartSlice";
+import { addToCart, removeFromCart } from "../redux/CartSlice";
 import toast from "react-hot-toast";
 
 const AddToCart = ({ productId }: { productId: number }) => {
